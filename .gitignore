@@ -1,0 +1,73 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse (if applicable)
+.project
+.classpath
+.settings/
+bin/
+
+# Generated files
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Configuration files
+application.properties
+application.yml
+*.env
+
+# Ignore test reports
+test-output/
+surefire-reports/
+jacoco.exec
+*.ec
+
+# Dependencies (optional, if using libraries outside Maven)
+lib/
